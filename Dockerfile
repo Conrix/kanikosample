@@ -1,5 +1,7 @@
 FROM centos
 
-RUN yum -y update && \
-    yum -y install net-tools
+ENV DEVS /opt/devs
+
+#RUN yum -y update && \
+#    yum -y install net-tools
 
